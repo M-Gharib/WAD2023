@@ -4,7 +4,7 @@ Materials for each week will be added as a branch of this repo
 
 To clone a specific branch use the following command
 
-git clone -b <branchname> <remote-repo-url>
+git clone -b \<branchname\> \<remote-repo-url\>
 
 Example
 
