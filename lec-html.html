@@ -1,0 +1,128 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="res/images/favicon.ico">
+    <title>My Dashboard</title>
+
+
+</head>
+
+<body>
+
+    <header>
+        <strong>Welcome to your dashboard!</strong><br> HTML is fun
+    </header>
+
+    <section>
+        <div>
+            <img src="res/images/me.png" width="128" height="128" alt="My picture">
+        </div>
+        <div>
+            <ul>
+                <li>Your name</li>
+                <li> A date following this format dd/mm/yyyy</li>
+                <li>Software Engineering </li>
+            </ul>
+        </div>
+        <div>
+            <strong>2.65</strong>
+        </div>
+    </section>
+
+    <section>
+        <h1>Courses</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Course Title</th>
+                    <th>Semester</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Agile software development</td>
+                    <td>fall</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td> Systems modelling </td>
+                    <td>fall</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td> Requirements Engineering </td>
+                    <td>fall</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td> Human Computer Interaction </td>
+                    <td>fall</td>
+                    <td>65</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>-</td>
+                    <td> - </td>
+                    <td>-</td>
+                    <td>- </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+
+    <form action="/page.php" method="get">
+
+        <label> Course Title:</label><br>
+        <input type="text" id="CTitle" name="CTitle"><br>
+
+        <label for="CSemester"> Semester:</label><br>
+
+        <select id="" name="Semester">
+          <option value="Fall">Fall</option>
+          <option value="Spring">Spring</option>
+          <option value="Summer">Summer</option>
+        </select>
+        <br>
+
+        <!-- this is a comment -->
+
+        <strong> Attendance:</strong><br>
+
+        <input type="radio" id="am1" name="Attendance-Mode" value="Virtual attendance">
+        <label for="am1"> Virtual attendance </label><br>
+
+        <input type="radio" id="am1" name="Attendance-Mode" value="Physical attendance">
+        <label for="am2"> Physical attendance </label><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://ois2.ut.ee/">OIS</a>
+            </li>
+            <li>
+                <a href="https://courses.cs.ut.ee/">Courses</a>
+            </li>
+        </ul>
+    </footer>
+
+
+
+
+</body>
+
+</html>

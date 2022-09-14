@@ -1,0 +1,200 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Week2</title>
+</head>
+
+<body>
+
+    <h1>HTML</h1>
+
+    <p>This is a paraghraph</p>
+    <p>This is another paraghraph</p>
+
+    <div> This is a division …. </div>
+
+    <!-- This Is Comment -->
+
+    <hr />
+
+    <h2>HTML Formatting tags </h2>
+
+    <p>This is a <b>bold text</b></p>
+    <p>This is a <strong> strongtext</strong></p>
+    <p>This is an <i> Italic text</i></p>
+    <p>This is an <em> emphasize  text</em></p>
+    <p>This is a <mark> marked text</mark></p>
+    <p>This is an <u> underline  text</u></p>
+    <p>This is a <small> small text</small></p>
+    <p>This is a <del> deleted text</del></p>
+    <p>This is a <ins> text</ins></p>
+    <p>This is a <sub>subscript</sub>text</p>
+    <p>This is a <sup>superscript </sup> text</p>
+
+    <hr />
+
+    <h2>Lists tags </h2>
+
+    <ul>
+        <li>Coffee</li>
+        <li> Tea </li>
+        <li> Milk </li>
+    </ul>
+
+
+    <ol>
+        <li> Coffee </li>
+        <li> Tea </li>
+        <li> Milk </li>
+    </ol>
+
+    <dl>
+        <dt> Coffee    </dt>
+        <dd> is a drink</dd>
+    </dl>
+
+    <hr />
+
+    <h2>HTML tables</h2>
+
+    <table>
+        <tr>
+            <th> First name </th>
+            <th> Last name</th>
+            <th> Age </th>
+        </tr>
+        <tr>
+            <td> Sarah </td>
+            <td> Jones </td>
+            <td> 21 </td>
+        </tr>
+    </table>
+
+    <hr />
+
+    <h2>HTML Anchors</h2>
+
+    <a href="https://courses.cs.ut.ee/2022/WAD/fall" target="_blank">  WAD course </a>
+
+    <hr />
+
+    <h2>User input and computer code</h2>
+
+    <p>press<kbd> Ctrl + S </kbd>to save</p>
+
+    <p>press<samp> F1 to continue</samp></p>
+
+    <code>
+        x = 5;                                       
+        y = 6;       
+        z = x + y;                                   
+    </code>
+
+    <pre>
+        <code>
+            x = 5;                                       
+            y = 6;       
+            z = x + y;                                   
+        </code>
+    </pre>
+    <hr />
+
+    <h2>HTML Forms</h2>
+
+    <form action="/page.php" method="post">
+
+        <label> Name:</label><br>
+        <input name="name" type="text" required placeholder="Enter your name"><br>
+
+        <label> Enter Email:</label><br>
+        <input name="email" type="email" required placeholder="Enter a valid email" value="o@ut.ee" minlength="8" maxlength="20"><br>
+
+        <hr />
+
+        <label>Readonly</label>
+        <input type="text " name="readonly " placeholder="Readonly " readonly><br>
+
+        <label>Autofocus </label>
+        <input type="text " name="autofocus " placeholder="autofocus " autofocus><br>
+
+
+        <label>Disabled  </label>
+        <input type="text " name="disabled " placeholder="disabled " disabled><br>
+
+        <hr />
+
+
+        <label>Color</label>
+        <input type="color" name="Color"><br>
+
+        <label>Range</label>
+        <input type="range" name="range " min="0 " max="100 " step="20 " value="80 "><br>
+
+        <label>Number</label>
+        <input type="number" name="number " min="10 " max="100 " step="2 "><br>
+
+        <input type="hidden" value="hiddenInput ">
+
+        <hr />
+
+        <textarea name="subject" cols="40" rows="10" placeholder="Test Text"></textarea>
+
+
+        <hr />
+
+        <div>
+            <input type="radio" name="os" value="Windows" checked />
+            <label>Windows</label>
+        </div>
+        <div>
+            <input type="radio" name="os" value="Linux" />
+            <label>Linux</label>
+        </div>
+        <div>
+            <input type="radio" name="os" value="Mac" />
+            <label>Mac</label>
+        </div>
+        <hr />
+        <div>
+            <input type="checkbox" name="os" value="Windows" checked />
+            <label>Windows</label>
+        </div>
+        <div>
+            <input type="checkbox" name="os" value="Linux" />
+            <label>Linux</label>
+        </div>
+        <div>
+            <input type="checkbox" name="os" value="Mac" />
+            <label>Mac</label>
+        </div>
+        <br />
+        <hr />
+
+
+        <label>Choose OS:</label>
+        <select name="OSSelect">
+        <optgroup label="Windows">
+          <option value="1">Class 1</option>
+          <option value="2">Class 2</option>
+          <option value="3">Class 3</option>
+        </optgroup>
+        <optgroup label="Mac">
+          <option value="4" selected>Class 4</option>
+          <option value="5">Class 5</option>
+          <option value="6">Class 6</option>
+        </optgroup>
+      </select>
+
+        <hr />
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+
+</html>
