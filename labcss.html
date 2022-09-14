@@ -2,27 +2,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/res/css/style.css">
     <link rel="icon" href="res/images/favicon.ico">
-    <title>My Dashboard</title>
-
-
+    <title>Lab 3 - CSS</title>
 </head>
 
 <body>
 
-    <header>
-        <strong>Welcome to your dashboard!</strong><br> HTML is fun
+
+    <header class="header">
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <a class="logo" href="#"><img src="res/images/me.png" width="50" height="50" alt="My picture"></a>
     </header>
 
+
     <section>
-        <div>
-            <img src="res/images/me.png" width="128" height="128" alt="My picture">
-        </div>
-        <div>
+        <h1>Personal Information</h1>
+        <div class="nav">
             <ul>
                 <li>Your name</li>
-                <li> A date following this format dd/mm/yyyy</li>
+                <li> date: dd/mm/yyyy</li>
                 <li>Software Engineering </li>
             </ul>
         </div>
@@ -80,36 +86,26 @@
     </section>
 
 
-    <form action="/page.php" method="get">
 
-        <label> Course Title:</label><br>
-        <input type="text" id="CTitle" name="CTitle"><br>
 
-        <label for="CSemester"> Semester:</label><br>
+    <div class="grid">
 
-        <select id="" name="Semester">
-          <option value="Fall">Fall</option>
-          <option value="Spring">Spring</option>
-          <option value="Summer">Summer</option>
-        </select>
-        <br>
+        <p>Course 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ullam voluptates veniam, alias modi nulla nobis nisi quo reprehenderit cupiditate, veritatis tenetur voluptate corporis corrupti ipsa, accusantium minus porro quae.</p>
 
-        <!-- this is a comment -->
+        <p>Course 2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ullam voluptates veniam, alias modi nulla nobis nisi quo reprehenderit cupiditate, veritatis tenetur voluptate corporis corrupti ipsa, accusantium minus porro quae.</p>
 
-        <strong> Attendance:</strong><br>
 
-        <input type="radio" id="am1" name="Attendance-Mode" value="Virtual attendance">
-        <label for="am1"> Virtual attendance </label><br>
+        <p>Course 3 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ullam voluptates veniam, alias modi nulla nobis nisi quo reprehenderit cupiditate, veritatis tenetur voluptate corporis corrupti ipsa, accusantium minus porro quae.</p>
 
-        <input type="radio" id="am1" name="Attendance-Mode" value="Physical attendance">
-        <label for="am2"> Physical attendance </label><br>
+        <p>Course 4 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ullam voluptates veniam, alias modi nulla nobis nisi quo reprehenderit cupiditate, veritatis tenetur voluptate corporis corrupti ipsa, accusantium minus porro quae.</p>
 
-        <input type="submit" value="Submit">
-    </form>
+
+    </div>
 
 
 
-    <footer>
+
+    <footer class="footer">
         <ul>
             <li>
                 <a href="https://ois2.ut.ee/">OIS</a>
@@ -119,8 +115,6 @@
             </li>
         </ul>
     </footer>
-
-
 
 
 </body>
