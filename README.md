@@ -8,4 +8,4 @@ git clone -b <branchname> <remote-repo-url>
 
 Example
 
-git clone -b lecture2-html https://github.com/M-Gharib/WAD-Lessons.git
+git clone -b lecture2-html https://github.com/M-Gharib/WAD2022.git
