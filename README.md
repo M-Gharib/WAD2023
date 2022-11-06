@@ -1,19 +1,4 @@
-# vuejs-i
+# WAD2022-Lecture9
 
-## Project setup
-```
-npm install
-```
+Invited talk, no materials to be added for this week
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
