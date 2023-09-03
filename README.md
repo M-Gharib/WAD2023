@@ -2,7 +2,7 @@
 
 ## Clone the repository
 ```
-git clone -b lecture11-node1 https://github.com/M-Gharib/WAD2022.git
+git clone -b lecture11-node1 https://github.com/M-Gharib/WAD2023.git
 ```
 
 ## Navigate to the project directory
