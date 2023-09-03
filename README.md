@@ -1,4 +1,4 @@
-# WAD2022-Lecture14
+# Lecture14
 
 Materials are covered in the lab repo
 
