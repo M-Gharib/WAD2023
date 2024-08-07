@@ -1,4 +1,4 @@
-# WAD2023 - Technical materials
+# WAD - Technical materials
 
 Materials for each week will be added as a branch of this repo
 
@@ -8,4 +8,4 @@ git clone -b \<branchname\> \<remote-repo-url\>
 
 Example
 
-git clone -b lecture2-html https://github.com/M-Gharib/WAD2023.git
+git clone -b lecture2-html https://github.com/M-Gharib/WAD.git
