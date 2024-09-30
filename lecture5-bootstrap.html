@@ -1,0 +1,273 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body{ margin: 25px; }
+    </style>
+    <title>Bootstrap 5 </title>
+</head>
+<body>
+
+  <h1>Welcome to Bootstrap 5 </h1>
+
+  <!--  Basic HTML heading tags -->
+  <h2>Basic HTML heading tags</h2>
+
+  <h1>this is an h1</h1>
+  <h2>this is an h2</h2>
+  <h3>this is an h4</h3>
+  <!-- We can override these HTML heading tags by using "Classes". For example, below is an h2 tag that uses h3 Class, which will result in a h4 heading -->
+  <h2 class="h4">this is an h2  tag with an h4 class</h2>
+
+  <hr>
+
+  <!-- Display headings - Bootstrap -->
+  <h2>Display headings</h2>
+  <!-- Display heading — a larger, slightly more opinionated heading style -->
+  <h1 class="display-1">display 1 heading</h1>
+  <h1 class="display-2">display 2 heading</h1>
+  <h1 class="display-4">display 4 heading</h1>
+  <!-- As you remember "class" can apply to any element so even if we use a Paragraph <P> with class display, it will work exactly in the same way as we did with headers. An example below -->
+  <p class="display-4">paragraph with display-4 class</p>
+
+  <hr>
+
+  <!-- Lead text - Bootstrap -->
+  <h2>Lead text</h2>
+  <!-- Lead text is used to style paragraphs to make them stand out as introductory or important text -->
+  <p class="lead">  This is a lead paragraph. It stands out from regular paragraphs.</p>
+  <!-- Lead can be used for text alignment, i.e., positioning the text at right, center of left using lead text-start, lead text-center, and lead text-end respectively  -->
+  <p class="lead text-start">  lead text-start </p>
+  <p class="lead text-center"> lead text-center </p>
+  <p class="lead text-end">    lead text-end </p>
+
+  <hr>
+
+  <!-- Text decoration  -->
+  <h2> Text decoration  </h2>
+  <p class="text-decoration-underline">this is underlined text</p>
+  <p class="text-decoration-line-through">this is line-through text</p>
+
+  <hr>
+
+  <!-- font weight -->
+  <h2> Font weight   </h2>
+  <p class="fw-bold">bold text</p>
+  <p class="fw-bolder">bolder text</p>
+  <p>normal text</p>
+  <p class="fw-light">light text</p>
+  <p class="fst-italic">italic text</p>
+  <p class="fst-italic fw-light">italic light text</p>
+
+<hr>
+
+  <h1> Colors  </h1>
+
+
+  <!-- Text colors -->
+  <h2> Text colors  </h2>
+  <!-- https://getbootstrap.com/docs/5.0/customize/color/ -->
+  <p class="text-primary">theme primary color is blue </p>     
+  <p class="text-secondary">theme secondary color  is gray </p>  
+  <p class="text-success">theme warning color is green</p>     
+  <p class="text-danger">theme danger color is red</p>  
+  <p class="text-warning">theme warning color is orange</p>     
+  <p class="text-info">theme info color is cyan</p>          
+  <p class="text-light">theme light color is light gray</p>        
+  <p class="text-dark">theme dark color is black</p>        
+
+  <hr>
+
+  <!-- Background colors -->
+  <h2> Background colors  </h2>
+  <!-- The colors above can also be used for background  -->
+  <p class="text-white bg-primary">white text on primary bg</p>
+  <p class="text-white bg-secondary">white text on secondary bg</p>
+  <p class="text-light bg-success">white text on secondary bg</p>
+
+  <hr>
+
+<!-- Buttons -->
+<h1>Buttons</h1>
+
+<h2>Basic buttons</h2>
+<button class="btn btn-primary">primary button</button> 
+<button class="btn btn-secondary">secondary button</button>
+<button class="btn btn-success">success button</button>
+
+
+
+<hr>
+
+<!-- anchor tags as buttons -->
+<h2> Buttons as links</h2>
+
+<a href="#" class="btn btn-primary">primary anchor tag</a>
+<a href="#" class="btn btn-secondary">secondary anchor tag</a>
+<a href="#" class="btn btn-success">success anchor tag</a>
+
+<hr>
+
+<!-- button sizes -->
+<h2>Button sizes</h2>
+
+<button class="btn btn-lg btn-primary">large primary button</button>
+<button class="btn btn-secondary"> normal secondary button</button>
+<button class="btn btn-sm btn-success">small success button</button>
+
+<hr>
+
+<!-- outlined styles -->
+<h2>Button Styles</h2>
+
+<button class="btn btn-outline-primary">outlined primary button</button>
+<button class="btn btn-outline-secondary"> outlined  secondary button</button>
+
+
+
+<hr>
+
+<!-- button groups -->
+<h2>Button Groups</h2>
+
+<div class="btn-group">
+  <a href="#" class="btn btn-primary">button 1</a>
+  <a href="#" class="btn btn-secondary">button 2</a>
+  <a href="#" class="btn btn-success">button 3</a>
+</div>
+
+
+<hr>
+
+<h1>Margin, Padding,  Borders and  shadow </h1>
+
+
+<!-- Spacing (margin & padding) -->
+<h2> Spacing (margin & padding) </h2>
+<div class="m-1 p-1 bg-primary">margin m-1  & padding p-1</div>
+<div class="m-5 p-5 bg-primary">margin m-5  & padding p-5</div>
+<div class="my-3 px-5 bg-primary">margin in y , padding in x </div>
+
+
+<hr>
+
+
+<!-- borders -->
+<h2> Borders </h2>
+<div class="m-3 p-3 border">default border</div>
+<div class="m-3 p-3 border-top border-end">top and end borders</div>
+<div class="m-3 p-3 border-start border-success">border with success color</div>
+<div class="m-3 p-3 border-start border-danger border-5">thick border (5)</div>
+<div class="m-3 p-3 rounded border border-5">rounded corners</div>
+<div class="m-3 p-3 rounded-pill border border-5">rounded-pill corners</div>
+
+
+
+<hr>
+
+<!-- shadows -->
+<h2> Shadows  </h2>
+<div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+<div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+<div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
+<div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+
+<hr>
+
+
+
+<h1> Containers </h1>
+
+<div class="container my-5">
+    <h2>normal container</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ratione labore modi vel facere pariatur. Nobis beatae ab officia assumenda nisi ea eos soluta accusamus iure minus iste reiciendis veritatis asperiores perferendis iusto, veniam tempora nulla repudiandae exercitationem? Eius rerum illo nulla corporis odio quos porro vero. Eveniet nulla deserunt odio tenetur vero nihil veritatis, quo repudiandae iusto blanditiis ipsum.</p>
+</div>
+
+  <div class="container-fluid my-5">
+    <h2>fluid container</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis obcaecati consequuntur mollitia distinctio, ratione enim quia sint repellat velit accusantium. Vel id architecto facilis facere soluta veritatis suscipit praesentium deleniti numquam impedit doloremque, recusandae reiciendis similique eos labore, quisquam quia voluptate distinctio maiores! Assumenda iure doloremque cupiditate architecto odit maiores magni itaque in, numquam qui cumque, blanditiis magnam aperiam. Dolor.</p>
+  </div>
+
+  <div class="container-lg my-5">
+    <h2>100% until lg screens, then container</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil dolore doloremque iure corporis, cumque voluptate commodi minus. Accusantium magni ut omnis excepturi cumque! Debitis fugiat cumque nihil corrupti eius facere corporis natus? Cumque numquam vitae ipsam eum quaerat omnis vel corrupti perferendis totam iste quisquam, facere consequuntur aut, ea, doloribus aperiam. Ad eius facilis nulla! Ea optio in corporis ab.</p>
+  </div>
+
+
+  <hr>
+
+  <h1> Grid system </h1>
+
+  <div class="container-lg my-5">
+    <h2>basic grid</h2>
+    <div class="row">
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 1</div>
+      </div>
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 2</div>
+      </div>
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-lg my-5">
+    <h2>column widths</h2>
+    <div class="row">
+      <div class="col-6">
+        <div class="p-5 bg-primary text-light">col 1</div>
+      </div>
+      <div class="col-3">
+        <div class="p-5 bg-primary text-light">col 2</div>
+      </div>
+      <div class="col-3">
+        <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-lg my-5">
+    <h2>responsive column widths</h2>
+    <div class="row"> 
+      <div class="col-sm-4 col-lg-6">
+        <div class="p-5 bg-primary text-light">col 1</div>
+      </div>
+      <div class="col-sm-4 col-lg-3">
+        <div class="p-5 bg-primary text-light">col 2</div>
+      </div>
+      <div class="col-sm-4 col-lg-3">
+        <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-lg my-5">
+    <h2>justifying columns</h2>
+    <div class="row justify-content-center"> <!-- end, start, between, around   -->
+      <div class="col-md-3">
+        <div class="p-5 bg-primary text-light">col 1</div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-5 bg-primary text-light">col 2</div>
+      </div>
+      <div class="col-md-3">
+        <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+    </div>
+  </div>
+  
+
+  <hr>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
