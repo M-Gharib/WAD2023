@@ -1,0 +1,454 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body{ margin: 25px; }
+        section{padding: 40px 0;}
+    </style>
+
+    <title>Bootstrap 5  - Example</title>
+</head>
+<body>
+
+
+
+ <!-- ------------------------------------------------------------------- navbar  ------------------------------------------------------------------- -->
+
+ <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+        <i class="bi bi-book"></i> <!-- icon -->
+          Web Application Development
+        </span>
+      </a>
+      <!-- toggle button  nav for small screen -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#coursetopics">About the Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacts</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-secondary" href="#registering">Register now</a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- ------------------------------------------------------------------- navbar  ------------------------------------------------------------------- -->
+
+
+<!-- ------------------------------------------------------------------- Grid system  ------------------------------------------------------------ -->
+
+  <section id="intro">
+    <div class="container-lg">    <!-- Grid: container-lg -->
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-5 text-muted"> WAD (LTAT.05.004) </div>
+          </h1>
+          <p class="lead my-4 text-muted">This course will introduce students to key concepts and technologies for developing modern web applications. The course starts by presenting basic Web technologies and languages (e.g. HTTP, HTML, CSS, Javascript) followed by modern frontend (e.g., Vue.js) and backend development frameworks (e.g., Node.js). Finally, various software testing techniques will be discussed and we will learn how some of them can be used in the context of web applications.</p>
+          <a href="#registering" class="btn btn-secondary btn-lg">Register Now</a>
+
+<!-- ---------------------------------------------------------------- offcanvas ----------------------------------------------------------- -->
+          <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+            Prerequisites 
+          </a>
+<!-- ---------------------------------------------------------------- offcanvas ----------------------------------------------------------- -->
+
+        </div>
+
+        <div class="col-md-5 text-center d-none d-md-block">
+<!-- ----------------------------------------------------------------  tooltip --------------------------------------------------------------------------- -->
+    
+          <span class="ttips" data-bs-placement="bottom" title="course logo"> <!-- check class "tt" at the bottom of the document -->
+
+
+            <img src="/res/logo.png" class="img-fluid">
+
+
+          </span> 
+ 
+<!-- ----------------------------------------------------------------  tooltip --------------------------------------------------------------------------- -->
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------- Grid system  ------------------------------------------------------------ -->
+
+  <!-- ------------------------------------------------------------------- cards ------------------------------------------------------------ -->
+
+  <section id="registering" class="bg-light mt-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Availalble Practical Sessions</h2>
+        <p class="lead text-muted">Choose a practical session to register.</p>
+      </div>
+
+      <div class="row my-5 g-0 align-items-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Practical session 2</h4>
+              <p class="display-6 my-4 text-primary fw-bold">Available places 8/30</p>
+              <p class="lead card-subtitle">Mondays - 14:15-16:00 - Delta Room 2034</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Register
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9 col-lg-4">
+          <div class="card border-primary border-2">
+            <div class="card-header text-center text-primary">Most Popular</div>
+            <div class="card-body text-center py-5">
+              <h4 class="card-title">Practical session 1</h4>
+              <p class="display-6 my-4 text-primary fw-bold">Available places 1/30</p>
+              <p class="lead card-subtitle">Mondays - 14:15-16:00 - Delta Room 2010</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Register
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Practical session 3</h4>
+              <p class="display-6 my-4 text-primary fw-bold">Available places 9/30</p>
+              <p class="lead card-subtitle">Mondays - 14:15-16:00 - Delta Room 2045</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Register
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+    
+
+    </div> 
+  </section>
+
+  <!-- ------------------------------------------------------------------- cards ------------------------------------------------------------ -->
+
+
+  <!-- course at a glance -->
+  <section id="coursetopics">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Course at a glance</h2>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="col-lg-6">
+  <!-- ------------------------------------------------------------------- accordion --------------------------------------------------------------------->
+          <div class="accordion" id="lectures">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lecture-1" aria-expanded="true" aria-controls="lecture-1">
+                  <strong>Lecture 1</strong> - Course Introduction &  Web Applications – Basic concepts
+                </button>
+              </h2>
+              <div id="lecture-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#lectures">
+                <div class="accordion-body">
+                  <p><strong>covers</strong> Three-tier architecture, client-server architecture, HTTP, and REST architecture Basic concepts.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lecture-2" aria-expanded="false" aria-controls="lecture-2">
+                  <strong>Lecture 2</strong>  - HTML (Hypertext Markup Language)
+                </button>
+              </h2>
+              <div id="lecture-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#lectures">
+                <div class="accordion-body">
+                  <p><strong>covers</strong> History of HTML, What HTML is, HTML Elements, Tags, attributes, etc. HTML5, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lecture-3" aria-expanded="false" aria-controls="lecture-3">
+                  <strong>Lecture 3</strong>  -  CSS (Cascading Style Sheets)
+                </button>
+              </h2>
+              <div id="Lecture-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#lectures">
+                <div class="accordion-body">
+                  <p><strong>covers</strong>  What CSS is, CSS Syntax, How we can use CSS to style our webpages, etc.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lecture-4" aria-expanded="false" aria-controls="lecture-4">
+                  <strong>Lecture 4</strong>  -  JavaScript I & II 
+                </button>
+              </h2>
+              <div id="lecture-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#lectures">
+                <div class="accordion-body">
+                  <p><strong>covers</strong> JavaScript history, JavaScript key aspects, JavaScript data types, and their related properties and methods, JavaScript functions, Scopes, High-order Functions, Objects, Classes, Generators, and Regular expressions.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lecture-5" aria-expanded="false" aria-controls="lecture-5">
+                  <strong>Lecture 5</strong> - Bootstrap 5
+                </button>
+              </h2>
+              <div id="lecture-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#lectures">
+                <div class="accordion-body">
+                  <p><strong>covers</strong> key componenets of Bootstrap such as grids, navigation bars, buttons, forms, cards, etc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- ------------------------------------------------------------------- accordion --------------------------------------------------------------------->
+
+
+    <!-- ------------------------------------------------------------------- List group -------------------------------------------------------------------->
+
+  <section id="reviews" class="bg-light">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2><i class="bi bi-eyeglasses"></i> </i>Course Reviews</h2>
+        <p class="lead">What  students have said about this course ...</p>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <h5 class="mb-1">I got acquainted with many new frameworks for creating web applications.</h5>
+              <small>anonymous</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <h5 class="mb-1">A very practical and necessary subject for the future.</h5>
+              <small>anonymous</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h5 class="mb-1">It taught a lot about different applications that people use for developing web apps, it was very in depth and interesting </h5>
+              <small>anonymous</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <h5 class="mb-1">What you learn in the subject is very widely used in the IT field and therefore valuable</h5>
+              <small>anonymous</small>
+            </div>
+          <div class="list-group-item py-3">
+                <div class="pb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h5 class="mb-1">I'll probably have to deal with it again.</h5>
+              <small>anonymous</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------- List group -------------------------------------------------------------------->
+
+
+  <!-- ------------------------------------------------------------------- Forms -------------------------------------------------------------------->
+
+  <!-- control, label, select, input-group, input-group-text -->
+  <section id="contact">
+    <div class="container-lg">
+      
+      <div class="text-center">
+        <h2>Get in Touch</h2>
+        <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          
+          <form>
+            <label for="email" class="form-label">Email address:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill text-secondary"></i>
+              </span>
+              <input type="text" id="email" class="form-control" placeholder="e.g. sarah@ut.ee" />
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="ttips" data-bs-placement="bottom" title="Enter an email address ...">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            <label for="name" class="form-label">Name:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill text-secondary"></i>
+              </span>
+              <input type="text" id="name" class="form-control" placeholder="e.g. Sarah" />
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="ttips" data-bs-placement="bottom" title="Enter your name ...">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            <label for="subject" class="form-label">What is your question about?</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+              </span>
+              <select class="form-select" id="subject">
+                <option value="registering" selected>Registering query</option>
+                <option value="content">Content query</option>
+                <option value="lab">Lab query</option>
+                <option value="other">Other query</option>
+              </select>
+            </div>
+            <div class="mb-4 mt-5 form-floating">
+              <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+              <label for="query">Your query...</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------- Forms -------------------------------------------------------------------->
+
+
+  <!-- ------------------------------------------------------------------- modal -------------------------------------------------------------------->
+
+  <!--  modal trigger -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="text-center">
+        <h2>Stay informed</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p class="text-muted my-4">You can join our mailing list to stay updated</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+            Signup for Updates
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- modal itself -->
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Get the latest by joining our mailing list</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>You can join by adding your email below</p>
+          <label for="modal-email" class="form-label">Your email address:</label>
+          <input type="text" class="form-control" id="modal-email" placeholder="e.g. sarah@ut.ee">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------------------------- modal -------------------------------------------------------------------->
+
+  <!-- ------------------------------------------------------------------- Offcanvas -------------------------------------------------------------------->
+
+  <!-- offcanvas -->
+  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label">Prerequisites courses</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p><strong>Object-Oriented Programming (6 ECTS) - LTAT.03.003.  (Recommended) </strong> The aim of the course is to provide basic knowledge about the nature of object-oriented programming, skills for programming and primary skills of teamwork. </p>
+    </div>
+  </div>
+  <!-- ------------------------------------------------------------------- Offcanvas -------------------------------------------------------------------->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- added for Tooltips  -->
+    <script>
+        const ttips = document.querySelectorAll('.ttips')
+        ttips.forEach(t => {
+          new bootstrap.Tooltip(t)
+        })
+      </script>
+    <!-- added for Tooltips  -->
+</body>
+</html>
